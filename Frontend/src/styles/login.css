@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Expanded+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.login {
+    margin-top: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 4px solid #555;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.login h1 {
+    font-family: lexend;
+}
+
+.login input {
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #555;
+    font-family: work sans;
+}
+
+.login button {
+    height: 40px;
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: work sans;
+}
+
+.login p {
+    font-family: montserrat;
+}
